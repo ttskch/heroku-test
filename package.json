@@ -1,0 +1,12 @@
+{
+  "name": "ttskch-heroku-test",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "micro -l tcp://0.0.0.0:$PORT",
+    "worker": "node src/worker.js"
+  },
+  "dependencies": {
+    "micro": "^9.3.4"
+  }
+}
